@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <style>
+    body{
+      text-align: center;
+    }
+      form{
+   font-family:Arial,Sans-Serif;
+      }
+     label{
+     display: block;
+     margin-bottom:10px ;
+     } 
+     input[type="text"],input["email"],input["password "]
+{
+  width: 30%;
+  height:30px;
+  padding:10px ;
+  margin-bottom:20px ;
+  border:1px solid #ccc;
+}
+input[type="submit"]{
+ background:#4CAF50 ; 
+ color:#fff ;
+  padding: 10px 20px ;
+  border:none ;
+  border-radius:5px;
+  cursor:pointer;
+}
+</style>
+</head>
+<body>
+  <form>
+<label for="username">Username:</label>
+<Input type="username" id="username" name="username" required >
+<br><br>
+<label for="Email">Email:</label>
+<Input type="email" id="email" name="email" required >
+<br><br>
+<label for="password">password:</label>
+<Input type="password" id="password" name="password" required >
+<br><br>
+<label for="confirm _password">confirm password:</label>
+<Input type="password" id="confirm password" name="confirm password" required >
+<br><br>
+<Input type="submit" value="Register">
+</form>
+</body>
+</HTML>
